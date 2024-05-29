@@ -57,6 +57,14 @@
                         line-height: 150%;
                         text-align: left;
                         text-decoration: none;
+
+                        &:hover{
+                            color: #b2eaff;
+                        }
+
+                        &:active{
+                            color: #74daff;
+                        }
                     }
                 }
             }
@@ -89,6 +97,14 @@
                         line-height: 150%;
                         text-align: left;
                         text-decoration: none;
+
+                        &:hover{
+                            color: #b2eaff;
+                        }
+
+                        &:active{
+                            color: #74daff;
+                        }
                     }
                 }
             }

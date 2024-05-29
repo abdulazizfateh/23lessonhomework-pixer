@@ -24,15 +24,13 @@
 .site-header .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 24px;
+  padding: 11px 0 11px 0;
 }
 .site-header .navbar .nav-logo-list {
   display: flex;
   align-items: center;
-  gap: 342px;
-}
-.site-header .navbar .nav-logo-list .nav-logo {
-  padding: 14px 0 14px 0;
+  gap: 320px;
 }
 .site-header .navbar .nav-logo-list .nav-list {
   display: flex;
@@ -48,8 +46,14 @@
   line-height: 24px;
   text-decoration: none;
 }
+.site-header .navbar .nav-logo-list .nav-list .nav-item-link:hover {
+  color: #00BAFC;
+}
+.site-header .navbar .nav-logo-list .nav-list .nav-item-link:active {
+  color: #0086b7;
+}
 .site-header .navbar .nav-tel-btn {
-  width: 160px;
+  width: 183px;
   padding: 8px 16px;
   color: rgb(255, 255, 255);
   font-family: Open Sans700;
@@ -59,6 +63,13 @@
   border-radius: 5px;
   background-color: rgb(0, 186, 252);
   border: none;
+  cursor: pointer;
+}
+.site-header .navbar .nav-tel-btn:hover {
+  background-color: #00aeed;
+}
+.site-header .navbar .nav-tel-btn:active {
+  color: #e5f8ff;
 }
 
 .hero-section .hero-section-wrapper {
@@ -90,7 +101,7 @@
 }
 .hero-section .hero-section-wrapper .hero-left .hero-service-btn {
   padding: 8px 16px;
-  width: 235px;
+  width: 265px;
   color: rgb(255, 255, 255);
   font-family: Open Sans700;
   font-size: 16px;
@@ -99,6 +110,13 @@
   border-radius: 5px;
   background: rgb(0, 186, 252);
   border: none;
+  cursor: pointer;
+}
+.hero-section .hero-section-wrapper .hero-left .hero-service-btn:hover {
+  background-color: #00aeed;
+}
+.hero-section .hero-section-wrapper .hero-left .hero-service-btn:active {
+  color: #e5f8ff;
 }
 .service-section .service-section-wrapper {
   padding: 56px 0px 56px 0px;
@@ -176,6 +194,7 @@
 }
 .service-section .service-section-wrapper .service-link-wrapper .service-order-link {
   padding: 8px 16px;
+  background-color: white;
   color: rgb(0, 186, 252);
   font-family: Open Sans400;
   font-size: 16px;
@@ -190,12 +209,11 @@
   text-decoration: none;
   font-family: Open Sans400;
   font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
   background-color: rgb(0, 186, 252);
 }
 .service-section .service-section-wrapper .service-link-wrapper .service-page-link {
   padding: 8px 16px;
+  background-color: white;
   color: rgb(0, 186, 252);
   font-family: Open Sans400;
   font-size: 16px;
@@ -210,7 +228,6 @@
   text-decoration: none;
   font-family: Open Sans400;
   font-size: 16px;
-  font-weight: 700;
   line-height: 24px;
   background-color: rgb(0, 186, 252);
 }
@@ -381,6 +398,7 @@
 }
 .work-section .work-section-wrapper .work-link-wrapper .work-order-link {
   padding: 8px 16px;
+  background-color: white;
   color: rgb(0, 186, 252);
   font-family: Open Sans400;
   font-size: 16px;
@@ -395,7 +413,6 @@
   text-decoration: none;
   font-family: Open Sans400;
   font-size: 16px;
-  font-weight: 700;
   line-height: 24px;
   background-color: rgb(0, 186, 252);
 }
@@ -463,7 +480,7 @@
 .order-section .order-section-wrapper .order-form label .form-order-btn {
   margin: 0 auto;
   padding: 8px 16px;
-  width: 167px;
+  width: 182px;
   color: rgb(255, 255, 255);
   font-family: Open Sans700;
   font-size: 16px;
@@ -472,6 +489,13 @@
   border-radius: 5px;
   background: rgb(0, 186, 252);
   border: none;
+  cursor: pointer;
+}
+.order-section .order-section-wrapper .order-form label .form-order-btn:hover {
+  background-color: #00aeed;
+}
+.order-section .order-section-wrapper .order-form label .form-order-btn:active {
+  color: #e5f8ff;
 }
 
 .site-footer {
@@ -527,6 +551,12 @@
   text-align: left;
   text-decoration: none;
 }
+.site-footer .site-footer-wrapper .footer-list-wrapper .footer-list1 .footer-item a:hover {
+  color: #b2eaff;
+}
+.site-footer .site-footer-wrapper .footer-list-wrapper .footer-list1 .footer-item a:active {
+  color: #74daff;
+}
 .site-footer .site-footer-wrapper .footer-list-wrapper .footer-list2 .footer-item-title {
   color: rgb(255, 255, 255);
   font-family: Open Sans700;
@@ -553,4 +583,10 @@
   line-height: 150%;
   text-align: left;
   text-decoration: none;
+}
+.site-footer .site-footer-wrapper .footer-list-wrapper .footer-list2 .footer-item a:hover {
+  color: #b2eaff;
+}
+.site-footer .site-footer-wrapper .footer-list-wrapper .footer-list2 .footer-item a:active {
+  color: #74daff;
 }
