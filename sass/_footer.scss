@@ -1,0 +1,97 @@
+.site-footer {
+    background-color: black;
+
+    .site-footer-wrapper {
+        display: flex;
+        align-items: start;
+        gap: 100px;
+        padding: 56px 0 56px 0;
+
+        .footer-copy {
+            .footer-copy-title {
+                color: rgb(255, 255, 255);
+                font-family: Open Sans700;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 130%;
+                margin-bottom: 16px;
+            }
+
+            .footer-copy-text {
+                width: 320px;
+                color: rgb(255, 255, 255);
+                font-family: Open Sans400;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 150%;
+                text-align: left;
+            }
+        }
+
+        .footer-list-wrapper {
+            display: flex;
+            align-items: start;
+            gap: 87px;
+
+            .footer-list1 {
+
+                .footer-item-title {
+                    color: rgb(255, 255, 255);
+                    font-family: Open Sans700;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 130%;
+                    margin-bottom: 16px;
+                }
+
+                .footer-item {
+                    list-style: none;
+                    margin-bottom: 8px;
+
+                    a {
+                        width: 320px;
+                        color: rgb(255, 255, 255);
+                        font-family: Open Sans400;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 150%;
+                        text-align: left;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .footer-list2 {
+                .footer-item-title {
+                    color: rgb(255, 255, 255);
+                    font-family: Open Sans700;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 130%;
+                    margin-bottom: 16px;
+                }
+
+                .footer-item {
+                    display: flex;
+                    align-items: center;
+                    list-style: none;
+                    margin-bottom: 8px;
+
+                    a {
+                        display: flex;
+                        gap: 8px;
+                        align-items: center;
+                        width: 320px;
+                        color: rgb(255, 255, 255);
+                        font-family: Open Sans400;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 150%;
+                        text-align: left;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

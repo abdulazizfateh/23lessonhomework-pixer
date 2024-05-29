@@ -1,0 +1,212 @@
+.work-section {
+    .work-section-wrapper {
+        padding: 56px 134px 56px 134px;
+
+        .work-title-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .work-title {
+                color: rgb(0, 0, 0);
+                font-family: Open Sans700;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 130%;
+                letter-spacing: 0%;
+                margin-bottom: 16px;
+            }
+
+            .work-text {
+                width: 719px;
+                color: rgb(0, 0, 0);
+                font-family: Open Sans400;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: center;
+                margin-bottom: 16px;
+            }
+        }
+
+        .work-requirement {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            margin-bottom: 48px;
+
+            .work-requirement-content {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                .work-requirement-title {
+                    color: rgb(0, 0, 0);
+                    font-family: Open Sans700;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 130%;
+                    text-align: left;
+                    margin-bottom: 8px;
+                }
+
+                .work-requirement-text {
+                    width: 493px;
+                    color: rgb(0, 0, 0);
+                    font-family: Open Sans400;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                }
+            }
+        }
+
+        .work-solution {
+            display: flex;
+            gap: 110px;
+            margin-bottom: 48px;
+
+            .work-solution-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .work-solution-title {
+                    color: rgb(0, 0, 0);
+                    font-family: Open Sans700;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 130%;
+                    margin-bottom: 8px;
+                }
+
+                .work-solution-text {
+                    width: 400px;
+                    color: rgb(0, 0, 0);
+                    font-family: Open Sans400;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .work-project {
+            display: flex;
+            gap: 32px;
+            margin-bottom: 48px;
+
+            .work-project-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .work-project-title {
+                    color: rgb(0, 0, 0);
+                    font-family: Open Sans700;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 130%;
+                    margin-bottom: 8px;
+                }
+
+                .work-project-text {
+                    color: rgb(0, 0, 0);
+                    font-family: Open Sans400;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .work-quality {
+            display: flex;
+            gap: 150px;
+            margin-bottom: 48px;
+
+            .work-quality-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .work-quality-title {
+                    color: rgb(0, 0, 0);
+                    font-family: Open Sans700;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 130%;
+                    margin-bottom: 8px;
+                }
+
+                .work-quality-text {
+                    width: 380px;
+                    color: rgb(0, 0, 0);
+                    font-family: Open Sans400;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .work-support {
+            display: flex;
+            gap: 32px;
+            margin-bottom: 48px;
+
+            .work-support-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .work-support-title {
+                    color: rgb(0, 0, 0);
+                    font-family: Open Sans700;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 130%;
+                    margin-bottom: 8px;
+                }
+
+                .work-support-text {
+                    width: 350px;
+                    color: rgb(0, 0, 0);
+                    font-family: Open Sans400;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .work-link-wrapper {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+
+            .work-order-link {
+                padding: 8px 16px;
+                color: rgb(0, 186, 252);
+                font-family: Open Sans400;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-decoration-line: underline;
+
+                &:hover {
+                    padding: 8px 16px;
+                    border-radius: 5px;
+                    color: white;
+                    text-decoration: none;
+                    font-family: Open Sans400;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    background-color: rgb(0, 186, 252);
+                }
+            }
+        }
+    }
+}
